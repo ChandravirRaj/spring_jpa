@@ -59,7 +59,7 @@ public class SprinJpaAppApplication {
         
         // By custome query method
         
-        User uuuu = repository.findUserById(3);
+        User uuuu = repository.findUserByFirstName("Gajendra");
         System.out.print("------>>" + uuuu);
 	}
 	
